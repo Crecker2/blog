@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{page.category_name}}</title>
+    {% include general.html %}
+  </head>
+  <body>
+  <div class="container-fluid">
+    {% include nav.html %}
+    <div id="sectionpage">
+      {% assign words = page.tag | split: '-'%}
+      <h1 class="sectionheader">{{page.tag | replace: '-', ' ' }}</h1>
+      <div class="blog-list">
+        {% for post in site.categories[page.tag] %}
+        <div class="post material-shadow">
+          <h3 class="title">{{post.title}}</h3>
+          <h4 class="date">{{post.date | date: "%-d %B, %Y"}}</h4>
+          <p class="preview">{{post.preview}}</p>
+          <a class="link" href="{{post.url}}"><p>Read more</p></a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

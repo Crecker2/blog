@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{page.title}}</title>
+    {% include general.html %}
+  </head>
+  <body>
+    {% include nav.html %}
+    <div class="articlewrapper">
+      <div class="articletitle">
+        <h1>{{page.title}}</h1>
+      </div>
+      <div class="articlebody">
+        {{content}}
+      </div>
+    </div>
+  </body>
+</html>

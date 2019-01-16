@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{page.title}}</title>
+    {% include general.html %}
+  </head>
+  <body>
+
+    <header id="top">
+      <h1>Joshua Fayer's Blog</h1>
+    </header>
+
+    <section id="sections">
+      <h1 class="sectionheader">Sections</h1>
+      <div class="sectionswrapper">
+        {% for category in site.categories %}
+          <div class="individual-wrapper">
+            <a href="/{{category | first | slugify: 'pretty'}}" class="section material-shadow">
+              <h2>{{category | first | replace: '-', ' '}}</h2>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+    <section id="feed">
+      <h1 class="sectionheader">Feed</h1>
+      {% for post in site.posts limit:5 %}
+        <div class="post material-shadow">
+          <h3 class="title">{{post.title}}</h3>
+          <h4 class="date">{{post.date | date: "%-d %B, %Y"}}</h4>
+          <p class="preview">{{post.preview}}</p>
+          <a class="link" href="{{post.url}}"><p>Read more</p></a>
+        </div>
+      {% endfor %}
+    </section>
+  </body>
+</html>
