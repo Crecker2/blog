@@ -1,7 +1,7 @@
 ---
 title: Lessons from the Cold Case Act
 layout: post
-categories: ["politics"]
+categories: ["Politics", "Tech", "Public Relations"]
 preview: Some takeaways and lessons learned from my involvement in the Civil Rights Cold Case Records Collection Act of 2018, a bill I worked on with my high school classmates which recently passed into law.
 ---
 
@@ -11,6 +11,6 @@ We graduated at the end of the school year having gone to Washington to state ou
 
 Then in May 2017, I got an email from my former AP government teacher, Mr. Wexler. It said, "Folks, your hard work has paid off!!! Bobby Rush has agreed to sponsor and introduce our bill in the House." We were ecstatic. After a semester of college and some tangential post-graduate involvement with the bill, the Cold Case Act was the least of my worries. But, as would be the case over the next few years, the bill had a habit of popping back into your life when you'd least expect it.
 
-Over a year passed, and the hype died down. There was little traction in the House; in fact, some ranking members of the committee the bill was filed into seemed almost to oppose the legislation. At best, this was viewed as a cute project. A neat accomplishment by a bunch of high schoolers.
+Over a year passed, and the hype died down. There was little traction in the House; in fact, some ranking members of the committee the bill was filed into seemed almost to oppose the legislation. [This is a test link](https://joshuafayer.com/) At best, this was viewed as a cute project. A neat accomplishment by a bunch of high schoolers.
 
 Then Doug Jones won the emergency election for the Senate seat in Alabama. Jones had previously expressed support for our legislation, and it wasn't long before the bill found itself with a new title: S.3191.

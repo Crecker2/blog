@@ -1,4 +1,4 @@
 ---
-tag: politics
+tag: Politics
 permalink: "/politics"
 ---

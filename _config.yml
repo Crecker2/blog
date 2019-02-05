@@ -1,7 +1,7 @@
 site: Joshua Fayer Blog
 baseurl: ""
 url: blog.joshuafayer.com
-permalink: /:categories/:title/
+permalink: /:title/
 collections:
   category:
     output: true

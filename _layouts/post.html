@@ -6,13 +6,25 @@
     <title>{{page.title}}</title>
     {% include general.html %}
   </head>
-  <body>
+  <body id="article">
     {% include nav.html %}
-    <div class="articlewrapper">
+    <div class="articlewrapper material-shadow">
       <div class="articletitle">
-        <h1>{{page.title}}</h1>
+        <div class="articletitle-wrapper">
+          <h1>{{page.title}}</h1>
+          <p>{{page.date | date: "%-d %B, %Y"}}</p>
+        </div>
       </div>
       <div class="articlebody">
+        <div class="tags">
+          {% for tag in page.categories %}
+            {% for category in site.category %}
+              {% if tag == category.tag %}
+                <a href="{{category.permalink | prepend: site.baseurl}}">{{tag}}</a>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        </div>
         {{content}}
 
         <div id="disqus_thread"></div>
@@ -39,5 +51,6 @@
       </div>
     </div>
     <script id="dsq-count-scr" src="//blog-joshuafayer.disqus.com/count.js" async></script>
+    <script src="{{'/js/scripts.js' | prepend: site.baseurl }}" charset="utf-8"></script>
   </body>
 </html>

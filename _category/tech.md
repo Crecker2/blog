@@ -1,0 +1,4 @@
+---
+tag: Tech
+permalink: "/tech"
+---

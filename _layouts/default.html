@@ -13,26 +13,28 @@
     </header>
 
     <section id="sections">
-      <h1 class="sectionheader">Sections</h1>
       <div class="sectionswrapper">
+        {% assign colour = 0 %}
         {% for category in site.categories %}
           <div class="individual-wrapper">
-            <a href="/{{category | first | slugify: 'pretty'}}" class="section material-shadow">
+            <a style="background-color: hsl({{colour}},60%,50%)" href="/{{category | first | slugify: 'pretty'}}" class="section">
               <h2>{{category | first | replace: '-', ' '}}</h2>
             </a>
           </div>
+        {% assign colour = colour | plus: 30 %}
         {% endfor %}
       </div>
     </section>
     <section id="feed">
-      <h1 class="sectionheader">Feed</h1>
+      {% assign border_colour = 0 %}
       {% for post in site.posts limit:5 %}
-        <div class="post material-shadow">
+        <div class="post" style=" box-shadow: 0px 0px 12px rgba(0,0,0,0.2),0 0px 12px hsl({{border_colour}},100%, 50%)">
           <h3 class="title">{{post.title}}</h3>
           <h4 class="date">{{post.date | date: "%-d %B, %Y"}}</h4>
           <p class="preview">{{post.preview}}</p>
           <a class="link" href="{{post.url}}"><p>Read more</p></a>
         </div>
+        {% assign border_colour = border_colour | plus: 60 %}
       {% endfor %}
     </section>
   </body>

@@ -13,6 +13,16 @@
 <script src="/js/tether.js" charset="utf-8"></script>
 <script src="/js/bootstrap.min.js" charset="utf-8"></script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-90343467-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-90343467-8');
+</script>
+
   </head>
   <body>
 
@@ -21,26 +31,42 @@
     </header>
 
     <section id="sections">
-      <h1 class="sectionheader">Sections</h1>
       <div class="sectionswrapper">
         
+        
           <div class="individual-wrapper">
-            <a href="/politics" class="section material-shadow">
-              <h2>politics</h2>
+            <a style="background-color: hsl(0,60%,50%)" href="/politics" class="section">
+              <h2>Politics</h2>
             </a>
           </div>
+        
+        
+          <div class="individual-wrapper">
+            <a style="background-color: hsl(30,60%,50%)" href="/tech" class="section">
+              <h2>Tech</h2>
+            </a>
+          </div>
+        
+        
+          <div class="individual-wrapper">
+            <a style="background-color: hsl(60,60%,50%)" href="/public-relations" class="section">
+              <h2>Public Relations</h2>
+            </a>
+          </div>
+        
         
       </div>
     </section>
     <section id="feed">
-      <h1 class="sectionheader">Feed</h1>
       
-        <div class="post material-shadow">
+      
+        <div class="post" style=" box-shadow: 0px 0px 12px rgba(0,0,0,0.2),0 0px 12px hsl(0,100%, 50%)">
           <h3 class="title">Lessons from the Cold Case Act</h3>
           <h4 class="date">15 January, 2018</h4>
           <p class="preview">Some takeaways and lessons learned from my involvement in the Civil Rights Cold Case Records Collection Act of 2018, a bill I worked on with my high school classmates which recently passed into law.</p>
-          <a class="link" href="/politics/lessons-from-the-cold-case-act/"><p>Read more</p></a>
+          <a class="link" href="/lessons-from-the-cold-case-act/"><p>Read more</p></a>
         </div>
+        
       
     </section>
   </body>
