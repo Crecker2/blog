@@ -1,12 +1,12 @@
 <nav class="navbar navbar-toggleable-sm navbar-light bg-light">
-  <a class="navbar-brand" href="{{site.url}}">Josh Fayer's Blog</a>
+  <a class="navbar-brand" href="{{site.url | prepend: ''}}">Josh Fayer's Blog</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="mainnav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="mainnav">
     <ul class="navbar-nav mr-auto">
-      <li clas="nav-item"><a class="nav-link" href="{{site.url}}">Home</a></li>
+      <li clas="nav-item"><a class="nav-link" href="{{site.url | prepend: ''}}">Home</a></li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Sections
