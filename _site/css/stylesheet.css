@@ -120,7 +120,7 @@ nav{
 }
 
 .post .date{
-  margin-top: 0;
+  margin-top: 5px;
   font-size: 16px;
   font-style: italic;
   color: #222;
@@ -160,6 +160,7 @@ nav{
 
 .articlewrapper{
   width: 80%;
+  max-width: 1200px;
   display: block;
   margin: 0 auto;
 
@@ -207,7 +208,7 @@ nav{
   border-radius: 25px;
   padding: 6px 10px;
   color: #fff;
-  margin: 0px 5px;
+  margin: 5px;
   transition: .3s all;
 }
 
@@ -249,6 +250,9 @@ nav{
     width: 100%;
   }
   .articletitle{
+    width: 100%;
+  }
+  .post{
     width: 100%;
   }
   .post .link{
