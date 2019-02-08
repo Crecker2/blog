@@ -7,7 +7,7 @@
     {% include general.html %}
   </head>
   <body>
-
+    {% include nav.html %}
     <header id="top">
       <h1>Joshua Fayer's Blog</h1>
     </header>
@@ -21,7 +21,7 @@
               <h2>{{category | first | replace: '-', ' '}}</h2>
             </a>
           </div>
-        {% assign colour = colour | plus: 75 %}
+        {% assign colour = colour | plus: 55 %}
         {% endfor %}
       </div>
     </section>
@@ -37,5 +37,7 @@
         {% assign border_colour = border_colour | plus: 60 %}
       {% endfor %}
     </section>
+
+    <script src="{{'/js/scripts.js' | prepend: site.baseurl}}" charset="utf-8"></script>
   </body>
 </html>

@@ -5,6 +5,19 @@ body{
 .material-shadow{
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+
+nav{
+  margin-bottom: 0;
+  background-color: #fff;
+  height: 80px;
+  transition: .3s all;
+}
+
+.navbar-brand{
+  font-size: 25px;
+  transition: .3s all;
+}
+
 header{
   background: linear-gradient(to bottom right, #1ee5dc, #c132e6 );
   height: 100vh;
@@ -162,7 +175,8 @@ nav{
   width: 80%;
   max-width: 1200px;
   display: block;
-  margin: 0 auto;
+  margin: 25px auto;
+  margin-top: 75px;
 
 }
 .articletitle{
@@ -230,6 +244,7 @@ nav{
 
 #sectionpage{
   padding: 45px 25px;
+  margin-top: 50px;
 }
 
 @media(max-width: 768px){
