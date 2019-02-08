@@ -9,7 +9,7 @@ body{
 nav{
   margin-bottom: 0;
   background-color: #fff;
-  height: 80px;
+  height: 75px;
   transition: .3s all;
 }
 
@@ -176,7 +176,7 @@ nav{
   max-width: 1200px;
   display: block;
   margin: 25px auto;
-  margin-top: 75px;
+  margin-top: 100px;
 
 }
 .articletitle{
@@ -249,6 +249,13 @@ nav{
 
 @media(max-width: 768px){
 
+  nav{
+    height: unset !important;
+  }
+
+  nav .navbar-brand{
+    font-size: 20px !important;
+  }
   .individual-wrapper{
     width: 100%;
     margin: 0;
