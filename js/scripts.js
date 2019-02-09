@@ -1,3 +1,9 @@
+function godown(section){
+	$('html, body').animate({
+		scrollTop: ($(section).offset().top - 70)
+	},0,'swing');
+}
+
 $(document).ready(function(){
 	(function() {
 		  var links = $(".articlebody p a");
@@ -28,4 +34,7 @@ $(document).ready(function(){
 		}
 		$(window).scroll(onscroll);
 		onscroll();
+
+		$('.carousel').carousel();
+		$('.carousel .carousel-item:first-of-type').addClass("active");
 });

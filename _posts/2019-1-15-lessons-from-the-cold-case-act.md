@@ -2,6 +2,8 @@
 title: Lessons from the Cold Case Act
 layout: post
 categories: ["Politics", "Tech", "Public Relations"]
+img: misty_ocean_sunrise_2.png
+alt: A painting of a misty ocean at sunrise. It's a pretty good painting if I do say so myself.
 preview: Some takeaways and lessons learned from my involvement in the Civil Rights Cold Case Records Collection Act of 2018, a bill I worked on with my high school classmates which recently passed into law.
 ---
 

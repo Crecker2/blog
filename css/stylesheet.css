@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -26,15 +29,36 @@ header{
   padding: 50px;
   font-family: 'Montserrat', sans-serif;
   display: table;
+  padding-top: 100px;
+  position: relative;
 }
 
 header h1{
   font-size: 5rem;
+  margin: 15px;
   color: #fff;
   font-weight: bold;
   display: table-cell;
   vertical-align: middle;
 }
+
+header .material-icons{
+    position: absolute;
+    font-size: 130px;
+    font-weight: bold;
+    color: #fff;
+    bottom: 6%;
+    width: 100%;
+    right: 0;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+header .material-icons:hover{
+  color: #93f6ff;
+}
+
 section{
   margin: 50px 0px;
   width: 100%;
@@ -119,9 +143,8 @@ nav{
   background-color: #fff;
   min-height: 250px;
   display: block;
-  margin: 15px auto;
+  margin: 30px auto;
   padding: 25px 20px;
-  border-radius: 15px;
 }
 .post .title{
   display: block;

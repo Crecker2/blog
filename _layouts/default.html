@@ -10,8 +10,8 @@
     {% include nav.html %}
     <header id="top">
       <h1>Joshua Fayer's Blog</h1>
+      <i class="material-icons godown" onclick="godown('#sections')" data-next="#sections">keyboard_arrow_down</i>
     </header>
-
     <section id="sections">
       <div class="sectionswrapper">
         {% assign colour = 0 %}
@@ -28,7 +28,7 @@
     <section id="feed">
       {% assign border_colour = 0 %}
       {% for post in site.posts limit:5 %}
-        <div class="post" style=" box-shadow: 0px 0px 12px rgba(0,0,0,0.2),0 0px 12px hsl({{border_colour}},100%, 50%)">
+        <div class="post material-shadow">
           <h3 class="title">{{post.title}}</h3>
           <h4 class="date">{{post.date | date: "%-d %B, %Y"}}</h4>
           <p class="preview">{{post.preview}}</p>
