@@ -18,10 +18,16 @@
         <div class="post material-shadow">
           <h3 class="title">{{post.title}}</h3>
           <h4 class="date">{{post.date | date: "%-d %B, %Y"}}</h4>
+          <div class="line" style="border: solid 1px hsl({{border_colour}},90%,50%)">
+
+          </div>
+          {% if post.img %}
+            <img src="assets/images/{{post.img}}" alt="{{post.alt}}">
+          {% endif %}
           <p class="preview">{{post.preview}}</p>
           <a class="link" href="{{post.url}}"><p>Read more</p></a>
         </div>
-        {% assign border_colour = border_colour | plus: 30 %}
+        {% assign border_colour = border_colour | plus: 60 %}
         {% endfor %}
       </div>
     </div>

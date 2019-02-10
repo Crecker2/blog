@@ -4,9 +4,10 @@ html{
 body{
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+  background-color: #eee;
 }
 .material-shadow{
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23), inset 1px 1px 0 rgba(0,0,0,.1);
 }
 
 nav{
@@ -22,7 +23,7 @@ nav{
 }
 
 header{
-  background: linear-gradient(to bottom right, #1ee5dc, #c132e6 );
+  background: linear-gradient(to bottom right, #4acaa8, #4fbdd6 );
   height: 100vh;
   width: 100%;
   text-align: center;
@@ -65,11 +66,12 @@ section{
 
 }
 .sectionheader{
-  font-weight: normal;
+  font-weight: 600;
   font-size: 48px;
   text-align: center;
   margin-bottom: 25px;
   width: 100%;
+  color: #1565C0;
 
 }
 #sections{
@@ -155,6 +157,13 @@ nav{
   text-align: center;
 }
 
+.post img{
+  max-width: 75%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: block;
+}
+
 .post .date{
   margin-top: 5px;
   font-size: 16px;
@@ -166,6 +175,14 @@ nav{
 }
 
 
+.post .line{
+  height: 0px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 10%;
+}
+
 .post .preview{
   width: 70%;
   display: block;
@@ -175,7 +192,7 @@ nav{
 .post .link{
   width: 150px;
   height: 50px;
-  background-color: #10e210;
+  background-color: #4acaa8;
   display: table;
   border-radius: 4px;
   transition: .3s all;
@@ -190,7 +207,7 @@ nav{
 }
 .post .link:hover{
   text-decoration: none;
-  background-color: #0dc50d;
+  background-color: #44b395;
 }
 
 
@@ -203,7 +220,7 @@ nav{
 
 }
 .articletitle{
-    background: linear-gradient(to bottom right, #1ee5dc, #c132e6 );
+    background: linear-gradient(to bottom right, #4acaa8, #4fbdd6 );
     text-align: center;
     padding: 50px;
     font-family: 'Montserrat', sans-serif;
