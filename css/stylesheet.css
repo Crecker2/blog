@@ -243,7 +243,17 @@ nav{
 .articlebody{
   margin-bottom: 25px;
   background-color: #fff;
-  padding: 25px;
+  padding: 25px 45px;
+}
+
+.articlebody h1{
+  font-size: 40px;
+  font-weight: 600;
+  color: #222;
+}
+
+.articlebody h2{
+  font-size: 38px;
 }
 
 .articlebody .tags{

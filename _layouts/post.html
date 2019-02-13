@@ -25,6 +25,9 @@
             {% endfor %}
           {% endfor %}
         </div>
+        {% if page.img %}
+          <img src="/assets/images/{{page.img}}" alt="{{page.alt}}">
+        {% endif %}
         {{content}}
 
         <div id="disqus_thread"></div>
