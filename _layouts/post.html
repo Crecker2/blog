@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <!-- metas -->
+    <meta name="keywords" content="Josh Fayer Blog, Joshua Fayer Blog, {{page.categories | join: ", "}}">
+    <meta name="description" content="{{page.preview | truncate: 155}}">
+
+    <meta property="og:title" content="{{page.title}}">
+    <meta property="og:description" content="{{page.preview}}.">
+    <meta property="og:image" content="/assets/images/{{page.img}}">
+    <meta property="og:url" content="{{page.url | absolute_url}}">
+
+    <meta name="twitter:title" content="{{page.title}}">
+    <meta name="twitter:description" content="{{page.preview}}">
+    <meta name="twitter:image" content="/assets/images/{{page.img}}">
+    <meta name="twitter:card" content="summary_large_image">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+
     <title>{{page.title}} | {{site.site}}</title>
     {% include general.html %}
   </head>
