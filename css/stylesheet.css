@@ -288,9 +288,17 @@ nav{
   margin: 15px auto;
 }
 
+.articlebody twitter-widget{
+  display: block;
+  margin: 15px auto;
+}
 
-
-
+.articlebody pre{
+  background-color: #f7f7f9;
+  color: #bd4147;
+  padding: 5px;
+  overflow-x: hidden;
+}
 
 #sectionpage{
   padding: 45px 25px;
