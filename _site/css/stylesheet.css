@@ -256,6 +256,10 @@ nav{
   font-size: 38px;
 }
 
+.articlebody p{
+  overflow-wrap: break-word;
+}
+
 .articlebody .tags{
   list-style: none;
   padding: 0;

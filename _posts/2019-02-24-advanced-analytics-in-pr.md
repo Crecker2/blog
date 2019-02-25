@@ -36,9 +36,9 @@ Enter the [Twitter API](https://developer.twitter.com/en/docs.html), or Applicat
 
 To ask Twitter for information about the tweet shown above using their API, I have to write a line of computer code that looks something like this:
 
-`print json.dumps(twitter_api.statuses.show(id=1099824337681596417))`
+`twitter_api.statuses.show(id=1099824337681596417)`
 
-This code basically tells my computer to display (or "print") what Twitter responds when I ask for details about a tweet with the unque ID 1099824337681596417. Note that this is the same ID you'd find in the URL, [twitter.com/joshuafayer/status/1099824337681596417](https://twitter.com/joshuafayer/status/1099824337681596417). On the website, Twitter converts the data stored on the backend into a webpage that displays the tweet. But what Twitter spits back out from the API request for the same tweet is an incredibly detailed object consisting of 122 lines of computer code:
+This code basically asks Twitter for details about a tweet with the unque ID 1099824337681596417. Note that this is the same ID you'd find in the URL, [twitter.com/joshuafayer/status/1099824337681596417](https://twitter.com/joshuafayer/status/1099824337681596417). On the website, Twitter converts the data stored on the backend into a webpage that displays the tweet. But what Twitter spits back out from the API request for the same tweet is an incredibly detailed object consisting of 122 lines of computer code:
 
 ```
 {
