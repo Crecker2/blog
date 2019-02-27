@@ -1,6 +1,6 @@
 site: Joshua Fayer Blog
 baseurl: ""
-url: blog.joshuafayer.com
+url: https://blog.joshuafayer.com
 permalink: /:title/
 collections:
   category:
@@ -12,3 +12,5 @@ defaults:
       type: category
     values:
       layout: "category"
+plugins:
+  - jekyll-sitemap
