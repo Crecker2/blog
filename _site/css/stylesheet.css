@@ -303,6 +303,14 @@ nav{
   padding: 5px;
 }
 
+.articlebody blockquote{
+  font-style: italic;
+  color: #555;
+  padding: 0px 25px;
+  margin: 1rem 25px;
+  border-left: solid 4px #666;
+}
+
 #sectionpage{
   padding: 45px 25px;
   margin-top: 50px;
