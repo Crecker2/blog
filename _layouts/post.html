@@ -7,12 +7,21 @@
 
     <meta property="og:title" content="{{page.title}}">
     <meta property="og:description" content="{{page.preview}}.">
-    <meta property="og:image" content="{{site.url}}/assets/images/{{page.img}}">
+    {% if page.img %} <!--If the page doesn't have a primary image, use the site-wide favicon-->
+      <meta property="og:image" content="{{site.url}}/assets/images/{{page.img}}">
+    {% else %}
+      <meta property="og:image" content="{{site.url}}/favicon.ico">
+    {% endif %}
     <meta property="og:url" content="{{page.url | absolute_url}}">
 
     <meta name="twitter:title" content="{{page.title}}">
     <meta name="twitter:description" content="{{page.preview}}">
-    <meta name="twitter:image" content="{{site.url}}/assets/images/{{page.img}}">
+    {% if page.img %} <!--If the page doesn't have a primary image, use the site-wide favicon-->
+      <meta name="twitter:image" content="{{site.url}}/assets/images/{{page.img}}">
+    {% else %}
+      <meta property="og:image" content="{{site.url}}/favicon.ico">
+    {% endif %}
+
     <meta name="twitter:card" content="summary_large_image">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
