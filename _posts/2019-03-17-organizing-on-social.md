@@ -14,6 +14,8 @@ Often, an individual activist acting on her own accord (or in coordination with 
 
 Churning out content for the sake of having content is not the most effective approach. Attention on social media is something that must be earned—and when you’ve captured it, it’s a waste to throw it away. Everything you share should be intentional.
 
+![Pete Buttigieg, Democratic candidate for 2020 presidential race](/assets/images/buttigieg.jpg)
+<p class="caption">Pete Buttigieg, Democratic candidate for 2020 presidential race</p>
 A topical example of this is the 2020 presidential race. Currently, I’m backing [Pete Buttigieg](https://peteforamerica.com) as my nominee for the Democratic Primary. I’m incredibly passionate about his race—so much so that I’m inclined to share almost everything I come across that has to do with him. But polluting my feed with all things Pete drowns out the content I actually want people to see, such as grassroots funding links, videos of Pete that best portray his character and policies, etc. For me, this becomes a bit of gut decision: I don’t use a tremendous amount of analysis to figure out what to share, short of some back-of-a-napkin math to make sure I’m not sharing repetitive or useless content. Acting with intention means that when I really want to push out a particular interview, spotlight, piece of campaign news, or fundraising effort, I have attention currency I can capitalize on.
 
 ## Play to Your Strengths

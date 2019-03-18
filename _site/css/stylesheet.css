@@ -292,6 +292,14 @@ nav{
   margin: 15px auto;
 }
 
+.articlebody .caption{
+  margin-top: 0px;
+  padding-top: 0px;
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+}
+
 .articlebody twitter-widget{
   display: block;
   margin: 15px auto;
