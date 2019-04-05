@@ -8,7 +8,7 @@ preview: Often, public relations classes teach commonly accepted practices. This
 ---
 The baseline, bare-minimum approach to public relations isn't sufficient for most roles practitioners will take up these days. There certainly are things that every practitioner should do when hired: going over a comprehensive crisis plan, evaluating goals and metrics, etc. These steps are still highly relevant and have their place in the modern public relations role.
 
-But by doing the usual, run-of-the-mill approaches to running a campaign (pushing out a press release, contacting a few reporters, and not much more) you're not going to be putting your campaign in a position to succeed. Today's information environment is a meritocracy: gone are the days when a few content producers and distributers dominated the landscape. If you want attention, you have to earn it.
+But by doing the usual, run-of-the-mill approaches to running a campaign (pushing out a press release, contacting a few reporters, and not much more) you're not going to be putting your campaign in a position to succeed. Today's information environment is a meritocracy: gone are the days when a few content producers and distributors dominated the landscape. If you want attention, you have to earn it.
 
 So when practitioners like Adam Ritchie approach struggling brands that have low budgets, small audiences, and no obvious way to fix any of their problems, they have to think outside of the box.
 
@@ -21,7 +21,7 @@ This is the power of outside-of-the-box thinking. For any unsigned, small-time b
 Enter Aeronaut Brewing Company, who partnered with The Lights Out for the release. The story was a hit, and Ritchie ended up winning four Silver Anvils for the campaign.
 
 ### It doesn't have to be impossibly clever
-The more I think about this campaign, the more confused I get. How did Ritchie choose beer as the medium? Why not a local soda-brewing company, or night club, or any of the other bustling local industries native to Boston and Cambridge? How do you even come up with the idea of using something as off-character as a beer can to release a new album?
+The more I think about this campaign, the more confused I get. How did Ritchie choose beer as the medium? Why not a local soda-brewing company, or nightclub, or any of the other bustling local industries native to Boston and Cambridge? How do you even come up with the idea of using something as off-character as a beer can to release a new album?
 
 But this is a slightly backwards way of thinking of it. Any clever idea is just one of several that could have come about, and looking at an already-successful campaign as a model for future campaigns is more or less the definition of confirmation bias. Put another way: this campaign _could_ have failed, but it didn't. Ritchie paired two things he was presumably passionate about and thought would go well together&mdash;his band and beer&mdash;did some research to test his hypothesis, took a leap of faith, and stuck the landing. This isn't a foreign formula to the field of public relations, it's simply an excellent case study of doing it well.
 
