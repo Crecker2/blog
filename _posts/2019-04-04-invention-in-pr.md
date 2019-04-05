@@ -1,7 +1,7 @@
 ---
 title: Diverting from the Norm in Public Relations
 layout: post
-categories: [Public Relations"]
+categories: [Public Relations]
 img: adam_ritchie.gif
 alt: A gif of Adam Ritchie giving his presentation
 preview: Often, public relations classes teach commonly accepted practices. This is a fine approach, but only gets you as far as the baseline. In his presentation on Apr. 4, 2019, Adam Ritchie presented a model for moving beyond the basic.
