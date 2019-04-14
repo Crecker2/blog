@@ -15,7 +15,7 @@
     <meta property="og:url" content="{{page.url | absolute_url}}">
 
     <meta name="twitter:title" content="{{page.title}}">
-    <meta name="twitter:description" content="{{page.preview}}">
+    <meta name="twitter:description" content="{{page.preview | truncate: 155}}">
     {% if page.img %} <!--If the page doesn't have a primary image, use the site-wide favicon-->
       <meta name="twitter:image" content="{{site.url}}/assets/images/{{page.img}}">
     {% else %}
