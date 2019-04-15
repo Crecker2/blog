@@ -5,8 +5,6 @@ categories: [Public Relations]
 preview: "Public relations practitioners have always felt the need to combat the 'spin master' perception that delegitimizes the industry and makes our communications efforts less effective. Now, companies are just getting around to finding a real, tangible way to accomplish this: speaking the truth."
 ---
 
-# The power of authenticity
-
 It sounds simple enough: people don’t like to be lied to. Mistruths, misrepresentations, mis-anythings—they’re all recipes for generating ill-will in almost any circumstance. Brands and public figures are increasingly discovering this as a national yearn for authenticity has called on a transformation of public communication. Surely, companies and politicians will still pedal out messages of what they think people want to hear rather than the whole truth and nothing but it. But there’s this intangible quality to genuine, unfiltered personality that draws people in and creates a closer relationship than any well-crafted spin could.
 
 In politics, this is particularly visible. Even fringe politicians, such as a self-described socialist like Bernie Sanders, are praised for holding values and sticking to them. Sanders’ consistent set of values or the way he unapologetically speaks his mind are things that vocal supporters of Senator Sanders frequently fall back on. Pete Buttigieg, a rising star in the early 2020 Democratic primary, has been praised across-the-aisle for being the “real deal,” a genuine, thoughtful speaker who doesn’t try to give a “typical answer” or resort to “politics as usual.”
